@@ -1,4 +1,7 @@
 # JavaScript-Fundamentals-HW4
+# screenshot of result:
+
+<img width="413" alt="Screenshot 2022-08-31 210655" src="https://user-images.githubusercontent.com/109069188/187749069-b75c44c0-8ae3-4bb1-b4ea-73dfe90be313.png">
 
 ## Variables
 - Calculate area of a rectangle

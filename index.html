@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello!</title>
+</head>
+
+<body>
+
+    <script>
+
+        console.log("Variable")
+
+        console.log("-----------Q1-----------")
+        let length=3;
+        let width =4;
+        let area=length*width;
+        console.log("The area of the rectangle is: "+area)
+
+        console.log("")
+        console.log("-----------Q2-----------")
+        let celsius=50;
+        let fahrenheit=celsius/(5/9)+32;
+        console.log(celsius+"°C is "+fahrenheit+"°F")
+
+        let fahrenheit2=122;
+        let celsius2=(fahrenheit2-32)*(5/9);
+        console.log(fahrenheit2+"°F is "+celsius2+"°C")
+
+
+        console.log("")
+        console.log("")
+        console.log("For Loop")
+
+        console.log("-----------Q3-----------")
+        let numbers = [23,54,32,87,47];
+        let sum=0;
+        numbers.forEach(element => {
+            sum+=element;
+        });
+        console.log("Sum of element is "+sum)
+
+        console.log("")
+        console.log("-----------Q4-----------")
+        let numbers2=[16,4,2,0,19,6];
+        console.log("Maximum number is "+Math.max(...numbers2));
+
+        console.log("")
+        console.log("-----------Q5-----------")
+        let numbers3=[1,2,3,4,5,6,7,8,9,10];
+        console.log(numbers3.reverse());
+
+
+        console.log("")
+        console.log("")
+        console.log("Nested for loop")
+
+        console.log("-----------Q6-----------")
+        let num=5;
+        for(let i=1; i<=num;i++) {
+            console.log("*".repeat(i))
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+        </body>
+
+</html>
